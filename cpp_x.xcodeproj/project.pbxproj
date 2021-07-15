@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A3D951F1269FD1680077225B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D951F0269FD1680077225B /* main.cpp */; };
+		A3D951F9269FD1A00077225B /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D951F7269FD1A00077225B /* point.cpp */; };
+		A3D951FC269FD1E80077225B /* circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D951FA269FD1E80077225B /* circle.cpp */; };
+		A3D95203269FDBBC0077225B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D951F0269FD1680077225B /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		A3D951ED269FD1680077225B /* cpp_x */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_x; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D951F0269FD1680077225B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A3D951F7269FD1A00077225B /* point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = "<group>"; };
+		A3D951F8269FD1A00077225B /* point.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = point.hpp; sourceTree = "<group>"; };
+		A3D951FA269FD1E80077225B /* circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = circle.cpp; sourceTree = "<group>"; };
+		A3D951FB269FD1E80077225B /* circle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = circle.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +47,7 @@
 		A3D951E4269FD1680077225B = {
 			isa = PBXGroup;
 			children = (
-				A3D951EF269FD1680077225B /* cpp_x */,
+				A3D951EF269FD1680077225B /* circle_point */,
 				A3D951EE269FD1680077225B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +60,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A3D951EF269FD1680077225B /* cpp_x */ = {
+		A3D951EF269FD1680077225B /* circle_point */ = {
 			isa = PBXGroup;
 			children = (
 				A3D951F0269FD1680077225B /* main.cpp */,
+				A3D951F7269FD1A00077225B /* point.cpp */,
+				A3D951F8269FD1A00077225B /* point.hpp */,
+				A3D951FA269FD1E80077225B /* circle.cpp */,
+				A3D951FB269FD1E80077225B /* circle.hpp */,
 			);
-			path = cpp_x;
+			path = circle_point;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3D951F1269FD1680077225B /* main.cpp in Sources */,
+				A3D951FC269FD1E80077225B /* circle.cpp in Sources */,
+				A3D951F9269FD1A00077225B /* point.cpp in Sources */,
+				A3D95203269FDBBC0077225B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
