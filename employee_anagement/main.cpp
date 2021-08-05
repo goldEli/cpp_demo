@@ -9,6 +9,13 @@
 #include "worker_manager.hpp"
 using namespace std;
 
+/**
+ worker category: worker manager boss
+ 
+ worker attributes: number, name, department number
+ worker behavior: get job description, get job title
+ */
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     WorkerManager wm;
@@ -20,7 +27,7 @@ int main(int argc, const char * argv[]) {
         cin >> choice;
         switch (choice) {
             case 0: // exit
-                cout << "Welcome for next time!" << endl;
+                wm.exitingSystem();
                 return 0;
             case 1: // add
                 break;
@@ -37,11 +44,12 @@ int main(int argc, const char * argv[]) {
             case 7: // clear
                 break;
             default:
+                system("clear");
                 break;
         }
 //        system("read -n 1 -s -p \"Press any key to continue...\"");
 //        system("cls");
-        system("clear");
+        
     }
     
     return 0;

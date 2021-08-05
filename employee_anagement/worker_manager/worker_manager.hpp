@@ -15,6 +15,7 @@ public:
     WorkerManager();
     ~WorkerManager();
     void showMenu();
+    void exitingSystem();
 };
 
 #endif /* worker_manager_hpp */
