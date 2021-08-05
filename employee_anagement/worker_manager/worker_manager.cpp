@@ -28,15 +28,14 @@ void WorkerManager::showMenu() {
     cout << "*****************************************************" << endl;
     cout << "******Welocme to the Employee Management System******" << endl;
     cout << "*****************************************************" << endl;
-    cout << "1. Exit Management System" << endl;
-    cout << "2. Add employee information" << endl;
-    cout << "3. Show employee information" << endl;
-    cout << "4. Delete employees" << endl;
-    cout << "5. Modify employee information" << endl;
-    cout << "6. find employee information" << endl;
-    cout << "7. Sort by index" << endl;
-    cout << "8. Clear all document" << endl;
-    
-    
-    cout << "****************************************************" << endl;
+    cout << "0. Exit Management System" << endl;
+    cout << "1. Add employee information" << endl;
+    cout << "2. Show employee information" << endl;
+    cout << "3. Delete employees" << endl;
+    cout << "4. Modify employee information" << endl;
+    cout << "5. find employee information" << endl;
+    cout << "6. Sort by index" << endl;
+    cout << "7. Clear all document" << endl;
+    cout << endl;
+    cout << endl;
 }
